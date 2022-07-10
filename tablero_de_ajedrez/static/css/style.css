@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+table tr td{
+    height: 60px;
+    width: 60px;
+}
+
+.color3{
+    background-color: beige;
+}
+
+.color4{
+    background-color: green;
+}
+
+.color1{
+    background-color: red;
+}
+
+.color2{
+    background-color: black;
+}
