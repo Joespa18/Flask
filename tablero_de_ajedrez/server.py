@@ -5,9 +5,9 @@ app = Flask(__name__)
 def tablero():
     return render_template('index.html')
 
-@app.route('/<int:y>')
-def tablero_2(y):
-    return render_template('index_1.html', y=y)
+@app.route('/<int:x>')
+def tablero_2(x):
+    return render_template('index_1.html', x=x)
 
 @app.route('/<int:x>/<int:y>')
 def tablero_3(x,y):
